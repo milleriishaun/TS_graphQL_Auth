@@ -1,3 +1,7 @@
+// End a session on port 4000 in console
+// netstat -ano | findstr :4000
+// taskkill /PID yourNumHere /F
+
 module.exports = [
   {
     name: "development",
